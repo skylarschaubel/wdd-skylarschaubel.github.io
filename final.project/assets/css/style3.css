@@ -1,0 +1,83 @@
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18pt;
+    font-weight: 200;
+}
+.home {
+    position: absolute;
+    left:1100px;
+    top:40px;
+    color:white;
+    z-index: 1;
+}
+
+.team {
+    position: absolute;
+    left:1230px;
+    top:40px;
+    color:white;
+    z-index: 1;
+}
+
+#solar-panel3 img[src="assets/img/solar.panel3.jpg"] {
+    position:absolute;
+    left:-10px;
+    top:0px;
+    width: 1555px;
+    height: 977px;
+    z-index: 0.5;
+}
+
+#blue-overlay img[src= "assets/img/blue.overlay.png"] {
+    position: absolute;
+    left:0px;
+    top:0px;
+    width: 1545px;
+    height: 977px;
+    opacity: 0.70;
+}
+
+.berkeley {
+    position: absolute;
+    left: 18px;
+    top: 90px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17pt;
+    font-weight: 300;
+    z-index:1;
+    color:white;
+}
+
+.recruit {
+    position: absolute;
+    left: 515px;
+    top: 120px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 50pt;
+    font-weight: 500;
+    z-index: 1;
+}
+
+#logo-image img[src="assets/img/revolv.logo.png"] {
+    width: 100px;
+    height: 70px;
+    z-index: 1;
+    position: absolute;
+    left: 15px;
+    top: 25px;
+}
+
+p {
+    position: absolute;
+    left: 350px;
+    top: 220px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size:20pt;
+    font-weight:100;
+}

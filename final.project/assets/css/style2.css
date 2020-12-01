@@ -1,0 +1,246 @@
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18pt;
+    font-weight: 200;
+}
+.home {
+    position: absolute;
+    left:1100px;
+    top:40px;
+    color:white;
+    z-index: 1;
+}
+
+.team {
+    position: absolute;
+    left:1230px;
+    top:40px;
+    color:white;
+    z-index: 1;
+}
+
+#solar-panel2 img[src="assets/img/solar.panel2.jpg"] {
+    position:absolute;
+    left:-10px;
+    top:0px;
+    width: 1555px;
+    height: 977px;
+    z-index: 0.5;
+}
+
+#blue-overlay img[src= "assets/img/blue.overlay.png"] {
+    position: absolute;
+    left:0px;
+    top:0px;
+    width: 1545px;
+    height: 977px;
+    opacity: 0.70;
+}
+
+
+.berkeley {
+    position: absolute;
+    left: 18px;
+    top: 90px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17pt;
+    font-weight: 300;
+    z-index:1;
+    color:white;
+}
+
+.meet {
+    position: absolute;
+    left: 515px;
+    top: 80px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 50pt;
+    font-weight: 500;
+    z-index: 1;
+}
+
+#logo-image img[src="assets/img/revolv.logo.png"] {
+    width: 100px;
+    height: 70px;
+    z-index: 1;
+    position: absolute;
+    left: 15px;
+    top: 25px;
+}
+
+#renee img[src="assets/img/renee.jpg"] {
+    height:200px;
+    width:220px;
+    position:absolute;
+    left: 200px;
+    top:200px;
+    transition: border-radius .2s;
+}
+.renee-info {
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    z-index:1;
+    font-size:20;
+    font-weight:300;
+    position: absolute;
+    left: 105px;
+    top:410px;
+    visibility:hidden;
+}
+.renee-hover:hover .renee-info{
+    visibility: visible;
+}
+#renee img[src="assets/img/renee.jpg"]:hover {
+    border-radius: 50%;
+}
+
+#christine img[src="assets/img/christine.jpg"] {
+    height:200px;
+    width:230px;
+    position:absolute;
+    left: 650px;
+    top:200px;
+    z-index: 1;
+    transition: border-radius .2s;
+}
+.christine-info {
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    z-index:1;
+    font-size:20;
+    font-weight:300;
+    position: absolute;
+    left: 650px;
+    top:410px;
+    visibility:hidden;
+}
+.christine-hover:hover .christine-info{
+    visibility: visible;
+}
+#christine img[src="assets/img/christine.jpg"]:hover {
+    border-radius: 50%;
+}
+
+
+#lauren img[src="assets/img/lauren.jpg"] {
+    height:200px;
+    width:220px;
+    position:absolute;
+    left: 1150px;
+    top:200px;
+    z-index: 1;
+    transition: border-radius .2s;
+}
+.lauren-info {
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    z-index:1;
+    font-size:20;
+    font-weight:300;
+    position: absolute;
+    left: 1150px;
+    top:410px;
+    visibility:hidden;
+}
+.lauren-hover:hover .lauren-info{
+    visibility: visible;
+}
+#lauren img[src="assets/img/lauren.jpg"]:hover {
+    border-radius: 50%;
+}
+
+
+#skylar img[src="assets/img/skylar.jpg"] {
+    height:210px;
+    width:230px;
+    position:absolute;
+    left: 200px;
+    top:590px;
+    z-index: 1;
+    transition: border-radius .2s;
+
+}
+.skylar-info {
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    z-index:1;
+    font-size:20;
+    font-weight:300;
+    position: absolute;
+    left: 90px;
+    top:810px;
+    visibility:hidden;
+}
+.skylar-hover:hover .skylar-info{
+    visibility: visible;
+}
+#skylar img[src="assets/img/skylar.jpg"]:hover {
+    border-radius: 50%;
+}
+
+
+#maggie img[src="assets/img/maggie.jpg"] {
+    height:210px;
+    width:230px;
+    position:absolute;
+    left: 650px;
+    top:590px;
+    z-index: 1;
+    transition: border-radius .2s;
+}
+.maggie-info {
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    z-index:1;
+    font-size:20;
+    font-weight:300;
+    position: absolute;
+    left: 580px;
+    top:810px;
+    visibility:hidden;
+}
+.maggie-hover:hover .maggie-info{
+    visibility: visible;
+}
+#maggie img[src="assets/img/maggie.jpg"]:hover {
+    border-radius: 50%;
+}
+
+
+#meghan img[src="assets/img/meghan.jpg"] {
+    height:210px;
+    width:220px;
+    position:absolute;
+    left: 1150px;
+    top:590px;
+    z-index: 1;
+    transition: border-radius .2s;
+}
+.meghan-info {
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    z-index:1;
+    font-size:20;
+    font-weight:300;
+    position: absolute;
+    left: 1110px;
+    top:810px;
+    visibility:hidden;
+}
+.meghan-hover:hover .meghan-info{
+    visibility: visible;
+}
+#meghan img[src="assets/img/meghan.jpg"]:hover {
+    border-radius: 50%;
+}

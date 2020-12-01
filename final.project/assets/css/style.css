@@ -1,0 +1,164 @@
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18pt;
+    font-weight: 200;
+}
+.home {
+    position: absolute;
+    left:1100px;
+    top:40px;
+    color:white;
+}
+
+.team {
+    position: absolute;
+    left:1250px;
+    top:40px;
+    color:white;
+}
+
+
+#solar-panel1 img[src="assets/img/solar-panel1.jpg"] {
+    left:-10px;
+    top:0px;
+    width: 1155px;
+    height: 540px;
+}
+
+#blue-overlay img[src= "assets/img/blue.overlay.png"] {
+    position: absolute;
+    left:0px;
+    top:0px;
+    width: 1555px;
+    height: 740px;
+    opacity: 0.7;
+}
+
+.berkeley {
+    position: absolute;
+    left: 625px;
+    top: 390px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 50pt;
+    font-weight: 500;
+}
+
+#logo-image img[src ="assets/img/revolv.logo.png"] {
+    position: absolute;
+    height: 240px;
+    width: 380px;
+    left: 590px;
+    top: 150px;
+}
+
+
+.about-us {
+    position: absolute;
+    left: 625px;
+    top: 775px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 50pt;
+    font-weight: 400;
+}
+
+p {
+    position: absolute;
+    left: 210px;
+    top: 850px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size:24pt;
+}
+
+.button {
+    display: inline-block;
+    padding: 20px 20px;
+    border-radius: 40px;
+    color: white;
+    background-color: orange;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 18pt;
+    font-weight: 200;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: absolute;
+    left: 625px;
+    top: 1320px;
+    overflow: hidden;
+    z-index: 1;
+
+
+
+}
+@keyframes fadeIn {
+    0% { background-color:orange; }
+    50% {background-color: #24219A;}
+    100%{background-color:orange;}
+ }
+ .button:hover {
+    cursor: pointer;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-iteration-count: 1x;
+    animation-timing-function: ease-in-out;
+ }
+
+
+#blue-overlay2 img[src= "assets/img/blue.overlay.png"] {
+    position: absolute;
+    left:0px;
+    top:1450px;
+    width: 1555px;
+    height: 300px;
+    z-index: 0.5;
+}
+
+.contact-us {
+    position: absolute;
+    left: 590px;
+    top: 1480px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 50pt;
+    font-weight: 400;
+    color:white;
+    z-index: 1;
+}
+
+#fb img[src="assets/img/facebook.png"] {
+    width:30px;
+    height: 70px;
+    z-index: 1;
+    position: absolute;
+    left: 635px;
+    top: 1586px;
+}
+
+#email img[src="assets/img/email.png"] {
+    z-index: 1;
+    position: absolute;
+    width:80px;
+    height:60px;
+    left: 725px;
+    top: 1595px;
+}
+
+#logo-image2 img[src="assets/img/revolv.logo.png"] {
+    width: 100px;
+    height: 70px;
+    z-index: 1;
+    position: absolute;
+    left: 845px;
+    top: 1590px;
+}
+
+body {
+    margin:0;
+}
